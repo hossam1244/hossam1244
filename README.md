@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Hossam Rakha, Mobile Developer & Content Creator.<br>🌱 Currently, building beautiful apps with Flutter & Android 💙.<br>🔭 Building Billiffy App: iOS, Android<be> 
+I'm Hossam Rakha, Mobile Developer & Content Creator.<br>🌱 Currently, building beautiful apps with Flutter & Android 💙.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/hossam-rakha-325364122/]) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)]([https://twitter.com/hossamrakha0])
