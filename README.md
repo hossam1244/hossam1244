@@ -4,7 +4,7 @@ Senior Software Engineer with 8 years shipping production software — **15+ mob
 
 ## 💻 Tech Stack
 
-**Mobile** — Flutter/Dart (8 production client apps) · Kotlin/Jetpack · Swift/SwiftUI/UIKit · React Native · Firebase · Room · Core Data
+**Mobile** — Flutter/Dart · Kotlin/Jetpack · Swift/SwiftUI/UIKit · React Native · Firebase · Room · Core Data
 
 **Backend** — Python · Node Js · Django · DRF · GraphQL · Celery · Redis · Channels · PostgreSQL · MySQL · MongoDB · Docker · GitHub Actions · Nginx/Gunicorn · AWS
 
