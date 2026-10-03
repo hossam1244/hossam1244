@@ -40,4 +40,3 @@ I've spent years on both sides of the API contract — so the backends I build a
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hossam-rakha-325364122/) [![Dev.to](https://img.shields.io/badge/dev-to?label=dev.to&color=%23000)](https://dev.to/hossamrakha0) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/hossamrakha0)
 
-💬 Ask me about Django API design, mobile architecture, offline-first sync, or how to make apps and backends get along.
