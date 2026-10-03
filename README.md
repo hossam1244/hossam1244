@@ -2,7 +2,7 @@
 
 Senior Software Engineer with **8 years** shipping production software:
 - 📱 **15+ mobile apps** to Google Play & the App Store — Flutter (8 production client apps), native Android (Kotlin/Jetpack), native iOS (Swift/SwiftUI), React Native
-- 🛠️ **Banking-grade Django/DRF backends** — fintech, marketplace, insurance, telecom and SaaS at a Cyprus software house (remote)
+- 🛠️ **Banking-grade Django/DRF backends** — fintech, marketplace, insurance, telecom and SaaS.
 - 📦 **OSS libraries** distilled from that work: `sync_refresh` (Dart), `django-idem` (Python), `auth-refresh` (Kotlin)
 
 I've spent years on both sides of the API contract — so the backends I build are the kind I always wanted as a client developer: clean contracts, honest errors, and performance that holds up on real devices and real networks.
