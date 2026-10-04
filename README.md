@@ -28,7 +28,7 @@ I've spent years on both sides of the API contract — so the backends I build a
 
 **Kotlin / JVM** — [auth-refresh](https://github.com/hossam1244/auth-refresh): lock-guarded OkHttp token refresh with single replay and session teardown
 
-Pairs worth noticing: `idempotency` (client) + `django-idem` (server) close the double-submit hole end to end; `sync_refresh` / `auth-refresh` / and the refresh logic inside the banking clients are the same contract in three languages.
+Pairs worth noticing: `idempotency` (client) + `django-idem` (server) close the double-submit hole end to end; `sync_refresh`, `auth-refresh`, and the refresh logic inside the banking clients are the same contract in three languages.
 
 ## 💻 Tech Stack
 
