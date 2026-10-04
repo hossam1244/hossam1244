@@ -3,7 +3,7 @@
 Senior Software Engineer with **8 years** shipping production software:
 - 📱 **15+ mobile apps** to Google Play & the App Store — Flutter (8 production client apps), native Android (Kotlin/Jetpack), native iOS (Swift/SwiftUI), React Native
 - 🛠️ **Django/DRF backends** — fintech, marketplace, insurance, telecom and SaaS.
-- 📦 **OSS libraries** distilled from that work: `sync_refresh` (Dart), `django-idem` (Python), `auth-refresh` (Kotlin)
+- 📦 **9 OSS libraries** distilled from that work, across Dart, Python and Kotlin — token refresh, idempotency, offline queues, error envelopes, the transactional outbox
 
 I've spent years on both sides of the API contract — so the backends I build are the kind I always wanted as a client developer: clean contracts, honest errors, and performance that holds up on real devices and real networks.
 
@@ -20,13 +20,15 @@ I've spent years on both sides of the API contract — so the backends I build a
 
 **More products**: [marketpulse-api](https://github.com/hossam1244/marketpulse-api) — marketplace backend with a 500k-product catalog, cursor pagination, cache-aside and stock-reserving checkout (measured: 1 vs 49 queries) · [crewops-rn](https://github.com/hossam1244/crewops-rn) — offline-first React Native field app with a persisted mutation queue.
 
-## 📦 Libraries
+## 📦 Libraries (9)
 
-| Package | Ecosystem | What it does |
-|---|---|---|
-| [sync_refresh](https://github.com/hossam1244/sync_refresh) | Dart / Dio | One refresh for concurrent 401s — single-flight token refresh, replay-once |
-| [django-idem](https://github.com/hossam1244/django-idem) | Python / DRF | Stripe-style request idempotency: replay, key-reuse rejection, race resolution |
-| [auth-refresh](https://github.com/hossam1244/auth-refresh) | Kotlin / OkHttp | Lock-guarded token refresh with single replay and session teardown |
+**Dart / Flutter** — [sync_refresh](https://github.com/hossam1244/sync_refresh): one refresh for concurrent 401s (single-flight, replay-once) · [mutation_queue](https://github.com/hossam1244/mutation_queue): offline-first persisted FIFO writes with retries and dead-lettering · [idempotency](https://github.com/hossam1244/idempotency): client-side idempotency keys that survive retries and restarts · [poll_until](https://github.com/hossam1244/poll_until): async polling with backoff, deadline and cancellation
+
+**Python / Django** — [django-idem](https://github.com/hossam1244/django-idem): Stripe-style request idempotency for DRF · [drf-envelope](https://github.com/hossam1244/drf-envelope): uniform `{error: {code, message, details}}` envelopes with stable codes · [django-event-outbox](https://github.com/hossam1244/django-event-outbox): transactional outbox with locked relay, retries and lease expiry · [drf-request-id](https://github.com/hossam1244/drf-request-id): request-ID middleware with ContextVar propagation and logging filter
+
+**Kotlin / JVM** — [auth-refresh](https://github.com/hossam1244/auth-refresh): lock-guarded OkHttp token refresh with single replay and session teardown
+
+Pairs worth noticing: `idempotency` (client) + `django-idem` (server) close the double-submit hole end to end; `sync_refresh` / `auth-refresh` / and the refresh logic inside the banking clients are the same contract in three languages.
 
 ## 💻 Tech Stack
 
