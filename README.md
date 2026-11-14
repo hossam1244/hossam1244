@@ -20,9 +20,10 @@ I've spent years on both sides of the API contract — so the backends I build a
 
 **More products**: [marketpulse-api](https://github.com/hossam1244/marketpulse-api) — marketplace backend with a 500k-product catalog, cursor pagination, cache-aside and stock-reserving checkout (measured: 1 vs 49 queries) · [crewops-rn](https://github.com/hossam1244/crewops-rn) — offline-first React Native field app with a persisted mutation queue.
 
-## 📦 Libraries (9)
+## 📦 Libraries (10)
 
 **Dart / Flutter** — [sync_refresh](https://github.com/hossam1244/sync_refresh): one refresh for concurrent 401s (single-flight, replay-once) · [mutation_queue](https://github.com/hossam1244/mutation_queue): offline-first persisted FIFO writes with retries and dead-lettering · [idempotency](https://github.com/hossam1244/idempotency): client-side idempotency keys that survive retries and restarts · [poll_until](https://github.com/hossam1244/poll_until): async polling with backoff, deadline and cancellation
+- **[llm_outbox](https://github.com/hossam1244/llm_outbox)** — the offline-first persistence & reliability layer for LLM apps in Dart & Flutter: persisted prompt queue (retry + dead-letter), resumable conversations, BYOK key vault, deterministic LLM test doubles.
 
 **Python / Django** — [django-idem](https://github.com/hossam1244/django-idem): Stripe-style request idempotency for DRF · [drf-envelope](https://github.com/hossam1244/drf-envelope): uniform `{error: {code, message, details}}` envelopes with stable codes · [django-event-outbox](https://github.com/hossam1244/django-event-outbox): transactional outbox with locked relay, retries and lease expiry · [drf-request-id](https://github.com/hossam1244/drf-request-id): request-ID middleware with ContextVar propagation and logging filter
 
